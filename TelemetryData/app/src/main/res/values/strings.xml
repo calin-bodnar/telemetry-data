@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Telemetry App</string>
+    <string name="connection_status">CONNECTION</string>
+    <string name="min_text">MIN.</string>
+    <string name="max_text">MAX.</string>
+    <string name="avg_text">AVG.</string>
 </resources>
