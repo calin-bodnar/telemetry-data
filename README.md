@@ -14,11 +14,21 @@ The application was build around the MVVM architectural pattern using RxJava2 fr
 The app was developed using Android Studio 2.3.3 and requires:
 * buildToolsVersion v26.0.2
 * Android SDK API level 26
-* Android virtual device with API level 21 or higher
+* Android virtual device (emulator) with API level 21 or higher 
 
 
 The app runs on port 53879, so please make sure the server is started on this port prior to running the app.
 
+
+### Configurations
+
 There are two configurations:
 1. app - runs the app
-2. jUnit- runs the unit tests
+2. jUnit - runs the unit tests (might be necessary to be re-added)
+
+
+### Caveats
+
+Due to current configuration the app will only work is installed on an emulator.
+
+
